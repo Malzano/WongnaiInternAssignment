@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04CB6AC5670E02F769991858 /* Pods_WongnaiInternAssignment1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F94101FF8390B9F981DD4DB /* Pods_WongnaiInternAssignment1.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		34EB2FB9BF217AAED7FC8899 /* Pods_WongnaiInternAssignment1_WongnaiInternAssignment1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D3CBEC27A8CC234731E192 /* Pods_WongnaiInternAssignment1_WongnaiInternAssignment1UITests.framework */; };
 		3983A7C425EFA0C7006D8080 /* PhotoTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3983A7C325EFA0C7006D8080 /* PhotoTableViewModel.swift */; };
 		3983A7C625EFBE4D006D8080 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983A7C525EFBE4D006D8080 /* RxCocoa.framework */; };
 		3983A7C825EFBE4E006D8080 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983A7C725EFBE4E006D8080 /* RxRelay.framework */; };
@@ -22,7 +20,9 @@
 		39AE82E823C2410D0081A402 /* TestTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE82E723C2410D0081A402 /* TestTableUITests.swift */; };
 		39AE82F823C249DF0081A402 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE82F723C249DF0081A402 /* PhotoTableViewController.swift */; };
 		39AE82FC23C254D60081A402 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE82FB23C254D60081A402 /* PhotoTableViewCell.swift */; };
-		494A2F5939412F2FA96A1878 /* Pods_WongnaiInternAssignment1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB00405FF8DE7064F2502896 /* Pods_WongnaiInternAssignment1Tests.framework */; };
+		82DBF482497765AFD83B3DB7 /* Pods_WongnaiAssignment1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA541DBD402B865EC0524BF3 /* Pods_WongnaiAssignment1Tests.framework */; };
+		D8B98BC05F633F85A82A7923 /* Pods_WongnaiAssignment1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C901DE17069AC48E79CD2FF5 /* Pods_WongnaiAssignment1.framework */; };
+		DD22CFDBF4E78086745BBF97 /* Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9372798ED139166D70B06DA /* Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F94101FF8390B9F981DD4DB /* Pods_WongnaiInternAssignment1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiInternAssignment1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E7981DCC19E87FF545390EA /* Pods-WongnaiInternAssignment1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiInternAssignment1Tests.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiInternAssignment1Tests/Pods-WongnaiInternAssignment1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F19626B2A7C0EB283E0227B /* Pods-WongnaiAssignment1-WongnaiAssignment1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiAssignment1-WongnaiAssignment1UITests.release.xcconfig"; path = "Target Support Files/Pods-WongnaiAssignment1-WongnaiAssignment1UITests/Pods-WongnaiAssignment1-WongnaiAssignment1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		3983A7C325EFA0C7006D8080 /* PhotoTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewModel.swift; sourceTree = "<group>"; };
 		3983A7C525EFBE4D006D8080 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3983A7C725EFBE4E006D8080 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,13 +63,14 @@
 		39AE82E923C2410D0081A402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39AE82F723C249DF0081A402 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 		39AE82FB23C254D60081A402 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
-		9BF5C072B193EC8C99ACA7DC /* Pods-WongnaiInternAssignment1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiInternAssignment1.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiInternAssignment1/Pods-WongnaiInternAssignment1.debug.xcconfig"; sourceTree = "<group>"; };
-		B43CF5AEB3DCE22BA914B7C6 /* Pods-WongnaiInternAssignment1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiInternAssignment1.release.xcconfig"; path = "Target Support Files/Pods-WongnaiInternAssignment1/Pods-WongnaiInternAssignment1.release.xcconfig"; sourceTree = "<group>"; };
-		B5026BDE5F2E372350C23E82 /* Pods-WongnaiInternAssignment1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiInternAssignment1Tests.release.xcconfig"; path = "Target Support Files/Pods-WongnaiInternAssignment1Tests/Pods-WongnaiInternAssignment1Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C7D3CBEC27A8CC234731E192 /* Pods_WongnaiInternAssignment1_WongnaiInternAssignment1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiInternAssignment1_WongnaiInternAssignment1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB00405FF8DE7064F2502896 /* Pods_WongnaiInternAssignment1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiInternAssignment1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1ADFFAEF8B829EE50AEF89 /* Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.release.xcconfig"; path = "Target Support Files/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.release.xcconfig"; sourceTree = "<group>"; };
-		FD6380B6CC61236048CC9A18 /* Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F3B4C98C4571608850BAC08 /* Pods-WongnaiAssignment1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiAssignment1Tests.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiAssignment1Tests/Pods-WongnaiAssignment1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		883AC370CB8123F8D9F8AA01 /* Pods-WongnaiAssignment1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiAssignment1.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiAssignment1/Pods-WongnaiAssignment1.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0875B4A999E4030E8E6217 /* Pods-WongnaiAssignment1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiAssignment1Tests.release.xcconfig"; path = "Target Support Files/Pods-WongnaiAssignment1Tests/Pods-WongnaiAssignment1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AF7B36DD1ED887FF5C9491B3 /* Pods-WongnaiAssignment1-WongnaiAssignment1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiAssignment1-WongnaiAssignment1UITests.debug.xcconfig"; path = "Target Support Files/Pods-WongnaiAssignment1-WongnaiAssignment1UITests/Pods-WongnaiAssignment1-WongnaiAssignment1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9372798ED139166D70B06DA /* Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C901DE17069AC48E79CD2FF5 /* Pods_WongnaiAssignment1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiAssignment1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA541DBD402B865EC0524BF3 /* Pods_WongnaiAssignment1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WongnaiAssignment1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE75C76C0F191B4071F65F0 /* Pods-WongnaiAssignment1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WongnaiAssignment1.release.xcconfig"; path = "Target Support Files/Pods-WongnaiAssignment1/Pods-WongnaiAssignment1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				3983A7C625EFBE4D006D8080 /* RxCocoa.framework in Frameworks */,
 				3983A7C825EFBE4E006D8080 /* RxRelay.framework in Frameworks */,
 				3983A7CA25EFBE4E006D8080 /* RxSwift.framework in Frameworks */,
-				04CB6AC5670E02F769991858 /* Pods_WongnaiInternAssignment1.framework in Frameworks */,
+				D8B98BC05F633F85A82A7923 /* Pods_WongnaiAssignment1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				494A2F5939412F2FA96A1878 /* Pods_WongnaiInternAssignment1Tests.framework in Frameworks */,
+				82DBF482497765AFD83B3DB7 /* Pods_WongnaiAssignment1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34EB2FB9BF217AAED7FC8899 /* Pods_WongnaiInternAssignment1_WongnaiInternAssignment1UITests.framework in Frameworks */,
+				DD22CFDBF4E78086745BBF97 /* Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +174,9 @@
 				3983A7C525EFBE4D006D8080 /* RxCocoa.framework */,
 				3983A7C725EFBE4E006D8080 /* RxRelay.framework */,
 				3983A7C925EFBE4E006D8080 /* RxSwift.framework */,
-				0F94101FF8390B9F981DD4DB /* Pods_WongnaiInternAssignment1.framework */,
-				C7D3CBEC27A8CC234731E192 /* Pods_WongnaiInternAssignment1_WongnaiInternAssignment1UITests.framework */,
-				EB00405FF8DE7064F2502896 /* Pods_WongnaiInternAssignment1Tests.framework */,
+				C901DE17069AC48E79CD2FF5 /* Pods_WongnaiAssignment1.framework */,
+				B9372798ED139166D70B06DA /* Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework */,
+				EA541DBD402B865EC0524BF3 /* Pods_WongnaiAssignment1Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,12 +184,12 @@
 		A3A264DACA1426993FB0B41E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9BF5C072B193EC8C99ACA7DC /* Pods-WongnaiInternAssignment1.debug.xcconfig */,
-				B43CF5AEB3DCE22BA914B7C6 /* Pods-WongnaiInternAssignment1.release.xcconfig */,
-				FD6380B6CC61236048CC9A18 /* Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.debug.xcconfig */,
-				EC1ADFFAEF8B829EE50AEF89 /* Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.release.xcconfig */,
-				2E7981DCC19E87FF545390EA /* Pods-WongnaiInternAssignment1Tests.debug.xcconfig */,
-				B5026BDE5F2E372350C23E82 /* Pods-WongnaiInternAssignment1Tests.release.xcconfig */,
+				883AC370CB8123F8D9F8AA01 /* Pods-WongnaiAssignment1.debug.xcconfig */,
+				FEE75C76C0F191B4071F65F0 /* Pods-WongnaiAssignment1.release.xcconfig */,
+				AF7B36DD1ED887FF5C9491B3 /* Pods-WongnaiAssignment1-WongnaiAssignment1UITests.debug.xcconfig */,
+				2F19626B2A7C0EB283E0227B /* Pods-WongnaiAssignment1-WongnaiAssignment1UITests.release.xcconfig */,
+				6F3B4C98C4571608850BAC08 /* Pods-WongnaiAssignment1Tests.debug.xcconfig */,
+				9D0875B4A999E4030E8E6217 /* Pods-WongnaiAssignment1Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -341,7 +341,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WongnaiAssignment1-WongnaiAssignment1UITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,7 +363,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WongnaiInternAssignment1Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WongnaiAssignment1Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,7 +385,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WongnaiInternAssignment1-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-WongnaiAssignment1-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,15 +398,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WongnaiAssignment1-WongnaiAssignment1UITests/Pods-WongnaiAssignment1-WongnaiAssignment1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WongnaiAssignment1-WongnaiAssignment1UITests/Pods-WongnaiAssignment1-WongnaiAssignment1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests/Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WongnaiAssignment1-WongnaiAssignment1UITests/Pods-WongnaiAssignment1-WongnaiAssignment1UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE884B47C4F13DC1663AD0C7 /* [CP] Embed Pods Frameworks */ = {
@@ -415,15 +415,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WongnaiInternAssignment1/Pods-WongnaiInternAssignment1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WongnaiAssignment1/Pods-WongnaiAssignment1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WongnaiInternAssignment1/Pods-WongnaiInternAssignment1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-WongnaiAssignment1/Pods-WongnaiAssignment1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WongnaiInternAssignment1/Pods-WongnaiInternAssignment1-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WongnaiAssignment1/Pods-WongnaiAssignment1-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -608,7 +608,7 @@
 		};
 		39AE82ED23C2410D0081A402 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BF5C072B193EC8C99ACA7DC /* Pods-WongnaiInternAssignment1.debug.xcconfig */;
+			baseConfigurationReference = 883AC370CB8123F8D9F8AA01 /* Pods-WongnaiAssignment1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -628,7 +628,7 @@
 		};
 		39AE82EE23C2410D0081A402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43CF5AEB3DCE22BA914B7C6 /* Pods-WongnaiInternAssignment1.release.xcconfig */;
+			baseConfigurationReference = FEE75C76C0F191B4071F65F0 /* Pods-WongnaiAssignment1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,7 +648,7 @@
 		};
 		39AE82F023C2410D0081A402 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7981DCC19E87FF545390EA /* Pods-WongnaiInternAssignment1Tests.debug.xcconfig */;
+			baseConfigurationReference = 6F3B4C98C4571608850BAC08 /* Pods-WongnaiAssignment1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -670,7 +670,7 @@
 		};
 		39AE82F123C2410D0081A402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5026BDE5F2E372350C23E82 /* Pods-WongnaiInternAssignment1Tests.release.xcconfig */;
+			baseConfigurationReference = 9D0875B4A999E4030E8E6217 /* Pods-WongnaiAssignment1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -692,7 +692,7 @@
 		};
 		39AE82F323C2410D0081A402 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD6380B6CC61236048CC9A18 /* Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.debug.xcconfig */;
+			baseConfigurationReference = AF7B36DD1ED887FF5C9491B3 /* Pods-WongnaiAssignment1-WongnaiAssignment1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -712,7 +712,7 @@
 		};
 		39AE82F423C2410D0081A402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC1ADFFAEF8B829EE50AEF89 /* Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.release.xcconfig */;
+			baseConfigurationReference = 2F19626B2A7C0EB283E0227B /* Pods-WongnaiAssignment1-WongnaiAssignment1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

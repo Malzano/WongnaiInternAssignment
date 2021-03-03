@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_WongnaiAssignment1_WongnaiAssignment1UITests : NSObject
+@end
+@implementation PodsDummy_Pods_WongnaiAssignment1_WongnaiAssignment1UITests
+@end

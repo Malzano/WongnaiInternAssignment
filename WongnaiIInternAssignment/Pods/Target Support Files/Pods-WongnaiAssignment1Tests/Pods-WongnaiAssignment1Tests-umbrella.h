@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_WongnaiInternAssignment1VersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_WongnaiInternAssignment1VersionString[];
+FOUNDATION_EXPORT double Pods_WongnaiAssignment1TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_WongnaiAssignment1TestsVersionString[];
 

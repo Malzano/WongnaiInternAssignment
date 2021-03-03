@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "48C7A765199732950006725BA7ACC456"
-               BuildableName = "Pods_WongnaiInternAssignment1.framework"
-               BlueprintName = "Pods-WongnaiInternAssignment1"
+               BlueprintIdentifier = "11E6F6C1BAB49399BCFBCC579F0E186D"
+               BuildableName = "Pods_WongnaiAssignment1_WongnaiAssignment1UITests.framework"
+               BlueprintName = "Pods-WongnaiAssignment1-WongnaiAssignment1UITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

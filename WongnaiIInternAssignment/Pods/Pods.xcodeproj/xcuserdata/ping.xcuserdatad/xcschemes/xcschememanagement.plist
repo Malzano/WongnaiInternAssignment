@@ -4,21 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-WongnaiInternAssignment1-WongnaiInternAssignment1UITests.xcscheme</key>
+		<key>Pods-WongnaiAssignment1-WongnaiAssignment1UITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-WongnaiInternAssignment1.xcscheme</key>
+		<key>Pods-WongnaiAssignment1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-WongnaiInternAssignment1Tests.xcscheme</key>
+		<key>Pods-WongnaiAssignment1Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

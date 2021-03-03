@@ -1,19 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'WongnaiInternAssignment1' do
+target 'WongnaiAssignment1' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for WongnaiInternAssignment1
+  # Pods for WongnaiAssignment1
   pod 'RxSwift'
   pod 'RxCocoa'
-  target 'WongnaiInternAssignment1Tests' do
+  target 'WongnaiAssignment1Tests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'WongnaiInternAssignment1UITests' do
+  target 'WongnaiAssignment1UITests' do
     # Pods for testing
   end
 
